@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 50px;
+}
+
+
+
+label {
+    display: block;
+}
+
+input {
+    width: 150%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+button:hover{
+    background-color: lightgray;
+}
+
+.form-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 20%;
+    max-width: 1000px;
+
+}
+
+.form-section div {
+    flex: 1;
+}
+
+.error, .success {
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.employees {
+    margin-top: 20px;
+}
+
+.employee {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 600px;
+}
+
+.employee button {
+    background-color: white;
+    color:black;
+    display: inline;
+    justify-content: space-between;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.employee button:hover {
+    background-color:lightgray; 
+    color: black;
+    transition: 0.3s ease; 
+}
+
+.empty-message {
+    margin: 20px 0;
+    color: white;
+    margin-left: 10%;
+}
